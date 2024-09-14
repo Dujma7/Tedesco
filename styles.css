@@ -1,0 +1,269 @@
+/** -----------------------------------TAGS----------------------------------------------- **/
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/** H1s **/
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: white;
+    padding: 10px;
+    padding-bottom: 40px;
+    padding-left: 0;
+    font-weight:800;
+}
+
+h3 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+h4:hover {
+    color: #000000a2;
+}
+
+/** A Tags **/
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #a1a1a1;
+}
+
+a:link {
+    color: white;
+}
+/** ----------------------------------CLASSES-------------------------------------------------- **/
+
+/** Containers /Rows **/
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+
+/** Navbar **/
+
+.navbar {
+    font-size: 1.3rem;
+    padding: 0 0 100px;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-item {
+    padding: 0 9px;
+    font-weight: 300;
+}
+
+/** Buttons **/
+
+.btn {
+    margin: 5px;
+}
+
+.signupbtn {
+    margin-top: 50px;
+}
+
+.ctabtn {
+    margin: 0 20px 100px 20px;
+}
+
+/** First part / Intro **/
+
+.intro {
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+/** Icons and Images **/
+
+.clipboard {
+    font-size: 100px;
+    padding-bottom: 25px;
+}
+
+.tutors {
+    font-size: 100px;
+    padding-bottom: 25px;
+}
+
+.grad {
+    font-size: 100px;
+    padding-bottom: 25px;
+}
+
+.featimg:hover {
+    color: #3f3a42;
+}
+
+.intro-img {
+    padding-top: 30px;
+    width: 600px;
+    border-radius: 100%;
+}
+
+.footericon {
+    padding: 30px 10px;
+    font-size: 25px;
+}
+
+.test-img {
+    height: 150px;
+}
+
+/** Features **/
+
+.feat {
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color:#4f5961;
+}
+
+.featd {
+    padding: 0 5%;
+}
+
+.featl {
+    padding: 0 2%;
+}
+
+/** Testimonials **/
+
+.test-text {
+    font-size: 50px;
+    color: #FFF;
+    font-weight: 900;
+    padding: 0 20%;
+}
+
+.test-text1 {
+    color: #FFF;
+    font-weight: 900;
+    padding: 0 10%;
+    font-size: 50px;
+}
+
+.cntry {
+    color: #fff; 
+    padding-left: 10px;  
+}
+
+/** Plans **/
+
+.plan-name {
+    font-weight: 700;
+}
+
+.price-intro {
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.price-text {
+    font-size: 1.75rem;
+    font-weight: 500;
+    padding-bottom: 4%;
+}
+
+.pric-mo {
+    padding-top: 4%;
+    padding-bottom: 10%;
+}
+
+.card {
+    margin: 0px;
+}
+
+.pric {
+    padding: 25px;
+}
+
+.card-title {
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.card-body {
+    font-size: 20px;
+}
+
+/** Call to action **/
+
+.ctah3 {
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 100px;
+}
+
+
+/** -----------------------------------IDs----------------------------------------------- **/
+
+#title {
+    background-color: #405D72;
+    
+}
+
+#features {
+    background-color: #FFF4EA;
+    text-align: center;
+    padding: 75px 0;
+
+}
+
+#testimonials {
+    background-color: #405D72;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding: 100px;
+    
+
+}
+
+
+#pricing {
+    background-color: #FFF4EA;
+    text-align: center;
+    color: #000;
+
+}
+
+#cta  {
+    background-color: #405D72;
+    color: #fff;
+    text-align: center;
+
+}
+
+#footer {
+    background-color: #000;
+    height:150px;
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+}
