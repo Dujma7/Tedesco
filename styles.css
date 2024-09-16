@@ -1,6 +1,7 @@
 /** -----------------------------------TAGS----------------------------------------------- **/
 
 body {
+    width: 100%;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -84,6 +85,7 @@ a:link {
     margin: 5px;
 }
 
+
 .signupbtn {
     margin-top: 50px;
 }
@@ -122,8 +124,7 @@ a:link {
 
 .intro-img {
     padding-top: 30px;
-    width: 600px;
-    border-radius: 100%;
+
 }
 
 .footericon {
@@ -158,13 +159,13 @@ a:link {
     font-size: 50px;
     color: #FFF;
     font-weight: 900;
-    padding: 0 20%;
+    padding: 0 100px;
 }
 
 .test-text1 {
     color: #FFF;
     font-weight: 900;
-    padding: 0 10%;
+    padding: 0 100px;
     font-size: 50px;
 }
 
@@ -245,7 +246,6 @@ a:link {
 
 }
 
-
 #pricing {
     background-color: #FFF4EA;
     text-align: center;
@@ -266,4 +266,33 @@ a:link {
     margin-bottom: 0;
     color: white;
     text-align: center;
+}
+
+/** ----------------------------------MEDIA QUERYS-------------------------------------------------- **/
+
+@media screen and (max-width: 900px) {
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .intro-img {
+        display: none;
+    }
+
+    .test-text {
+        font-size: 1.75rem;
+        padding: 0 1%;
+    }
+
+    .test-text1 {
+        font-size: 1.75rem;
+        padding: 0 1%;
+    }
+
+    .ctah3 {
+        font-size: 2.25rem;
+    }
+
+    
 }
